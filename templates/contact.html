@@ -36,7 +36,7 @@
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/about">About Us</a>
+        <a class="nav-link" href="#">About Us</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/contact">Contact Us</a>
@@ -53,47 +53,58 @@
   <main role="main" class="container">
     <div class="row">
       <div class="col-md-8 blog-main">
-       
-
-        <div class="blog-post">
-          <h2 class="blog-post-title mt-4">Text Utils Website</h2>
-          
-
-          <p>This text utils Website isn a cool website it can converted the text into lowercase , uppercase , removing extra space</p>
-          <hr>
-          <p>This method was deprecated in API level 26. Do not use. This is not internationalized, and has known issues with right-to-left text, languages that have more than one plural form, languages that use a different character as a comma-like separator, etc. Use listEllipsize(Context, List, String, TextPaint, float, int) instead.</p>
-          <blockquote>
-            <p>Returns a CharSequence concatenating the specified CharSequences, retaining their spans if any.</p>
-          </blockquote>
-          <p>Returns the original text if it fits in the specified width given the properties of the specified Paint, or, if it does not fit, a copy with ellipsis character added at the specified edge or center.</p>
-          
-          
-        </div><!-- /.blog-post -->
-    
-
-        <nav class="blog-pagination">
-          <a class="btn btn-primary" href="#">Older</a>
-          <a class="btn btn-danger txt-white" href="#">Newer</a>
-        </nav>
+        <form>
+            <div class="form-row mt-4">
+              <div class="form-group col-md-6">
+                <label for="inputfirstName">Enter your first name</label>
+                <input type="text" class="form-control" id="inputfirstName" placeholder="Enter your first name">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputlastName">Enter your last name</label>
+                <input type="text" class="form-control" id="inputlastName" placeholder="Enter your last name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputpermanentAddress">Enter your permanent address</label>
+              <input type="text" class="form-control" id="inputpermanentAddress" placeholder="Enter your permanent address">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Enter your residental address.</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Enter your residental address.">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Enter your contact number</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Enter your contact number">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <input type="text" class="form-control" id="inputlastName" placeholder="Your state">
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
 
       </div><!-- /.blog-main -->
 
-      <aside class="col-md-4 blog-sidebar">
-        <div class="p-3 mb-3 bg-light rounded">
-          <h4 class="font-italic mt-4">About</h4>
-          <p class="mb-0">Text utils is the awesome website and you can do anything with it such as converting text to uppercase , text to lowercase.</p>
-        </div>
-        
-      </aside>
+   
 
     </div>
 
   </main>
 
-  <footer class="blog-footer">
-    <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-    
-  </footer>
+
 
 
 <footer class="footer">
